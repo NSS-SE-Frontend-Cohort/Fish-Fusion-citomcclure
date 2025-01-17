@@ -10,7 +10,7 @@ let fish = [
 ]
 
 const boatInventory = () => {
-    return fish;
+    return structuredClone(fish);
 }
 
 module.exports = { boatInventory };
